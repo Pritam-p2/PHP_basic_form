@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80%;
+    background-color: rgb(198,152,241);
+    padding: 34px;
+    margin: auto;
+    /* margin auto likhne se center ho gaya */
+}
+.container h1,p{
+    text-align: center;
+}
+h1{
+    font-size:50px;
+}
+input,textarea{
+    display:block;
+    width: 80%;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline:none;
+}
+.submitMsg{
+    color:green;
+    font-size: 30px;
+    font-style: italic;
+}
+form{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+.btn{
+    color:white;
+    background:purple;
+    padding: 15px 10px;
+    font-size:20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
